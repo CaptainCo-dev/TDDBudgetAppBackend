@@ -13,6 +13,6 @@ class CategoryDTOTest {
         CategoryDTO categoryDTO = new CategoryDTO();
         categoryDTO.setName("Test");
         Category category = categoryDTO.toCategory();
-        Assertions.assertEquals("", category);
+        Assertions.assertEquals("Test", category.getName());
     }
 }

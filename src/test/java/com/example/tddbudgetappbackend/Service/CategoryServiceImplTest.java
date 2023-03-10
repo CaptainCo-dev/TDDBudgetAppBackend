@@ -31,6 +31,9 @@ public class CategoryServiceImplTest {
     @Autowired
     private CategoryServiceImpl categoryServiceImpl;
 
+    /**
+     * Tests the addCategory functionality
+     */
     @Test
     void testAddCategory() {
         Category category = new Category();
